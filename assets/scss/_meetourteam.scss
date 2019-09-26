@@ -1,0 +1,129 @@
+/**********************************************************888
+*************************
+ MEET OUR TEAM SECTION */
+ .our_team{
+	background-image: url(../images/photo3_02-min.jpg); 
+	background-repeat: no-repeat ;
+	background-size: cover ;
+	.over{
+	  background: rgb(19,10,54);
+	  background: linear-gradient(90deg, rgba(19,10,54,0.9235135196300035) 39%, rgba(28,15,59,0.8757607106412395) 79%);  
+	  min-height: 714px ;
+	  
+	  .container{
+		
+		header{
+		  h2{
+			margin-top:0 ;
+			margin-bottom: 17px ;
+		  }
+		  p{
+			font-family: $font ;
+			font-size: $p-size ;
+			font-weight: 400 ;
+			margin: 0 ;
+			
+			;
+		  }
+		  p::after{
+			content: "";
+			display: block ; 
+			width: 50px ; 
+			border-bottom: 2px solid #e1e0e5  ;
+			margin: 0 auto ; 
+			padding-bottom: 18px ;
+			margin-bottom:47px ;
+		  }
+		}
+		footer{
+		  
+		 div{
+		   
+		  text-align: center;
+		  color: #333 ;
+		  font-size: 0.875rem ;
+		  color: #00e0d0 ; 
+		  border: 1px solid #00e0d0 ;
+		  padding: 11px ;
+		  width: 138px ;
+		  border-radius: 2px ;
+		  letter-spacing: 0.0000em ;
+		  font-weight : 400 ;
+		  font-family: 'Roboto',sans-serif ;
+		  margin: 0 auto ;
+		  margin-bottom: 69px ;
+		  
+		 }
+		 p{
+		   font-family:$p-font ;
+		   font-size: $p-size ;
+		   font-weight: 300 ;
+		   margin-top: 0 ;
+		   margin-bottom: 25px ;
+		 }
+  
+		}
+		padding-top: 50px ;
+		
+		text-align: center ;
+		color:#e1e0e5; 
+		  h2{
+			font-family:$font ; 
+			font-size: $h-size ; 
+			font-weight: 400 ; 
+			
+		  }
+		  
+   .team_members{
+	 margin-bottom: 35px ;
+	  
+	  .regular{ 
+		justify-content: space-between ;
+	  }
+	  .owl-three{
+		display: none ;
+	  }
+  
+	   }
+	 }
+	  
+	
+	.col{
+	  h3{
+		font-size: $p-size ; 
+		font-family: $p-font ; 
+		margin: 0 ;
+	  }
+	  h3:nth-child(2){
+		font-size:$p-size; 
+		font-weight: 400 ; 
+		margin-top: 10px ;
+	  }
+	   .boarder{
+		 border: solid 1px $p-color ;
+		 border-top: none ;
+		 padding-left: 45px ;
+		 padding-right: 45px ;
+		 padding-bottom: 24px ;
+		 padding-top: 20px ;
+	   }
+	  width: calc(25% - 15px);
+	  
+	  
+	  img{
+		width:100%;
+		display: block;
+		max-height: 230px ;
+		margin: 0 ;
+		background-image: cover ;
+	  }
+	}
+  }
+  }
+  
+  /// MEET OUR TEAM END//////////////
+
+
+
+
+

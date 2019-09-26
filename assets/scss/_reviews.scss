@@ -1,0 +1,114 @@
+
+.reviews{
+  
+	.item{
+	  margin: 0 auto ;
+	}
+	   img{
+		 padding-top: 70px ;
+		 margin: 0 auto ; 
+		 margin-bottom: 43px ;
+	   }
+	   .owl-theme .owl-dots .owl-dot span {
+		 width: 45px;
+		 height: 45px;
+		 margin: 5px 7px;
+		 background-size: cover ;
+		 display: block;
+		 transition: opacity .2s ease;
+		 border-radius: 30px;
+		 
+		 
+	 }
+	 .owl-theme .owl-dots .owl-dot:nth-child(1) span {
+		 background-image: url(../images/images/images/tajem_master_04_03.png) ;
+	 }
+	.owl-theme .owl-dots .owl-dot:nth-child(2) span {
+		 background-image: url(../images/images/images/tajem_master-5_05.png) ;
+	 }
+	 .owl-theme .owl-dots .owl-dot:nth-child(3) span {
+		 background-image: url(../images/images/images/tajem_master-6_03.png) ;
+	 }
+	 .owl-theme .owl-dots .owl-dot:nth-child(4) span {
+		background-image: url(../images/small-pic_03.png) ;
+	 }
+	 .owl-theme .owl-dots .owl-dot:nth-child(5) span {
+		 background-image: url(../images/images/images/tajem_master-8_03.png) ;
+	 }
+	 .owl-theme .owl-dots .owl-dot:nth-child(6) span {
+		 background-image: url(../images/images/images/tajem_master_04_03.png) ;
+	 }
+	 
+	 
+	   .owl-theme .owl-dots .owl-dot.active span{
+		 width: 60px;
+		 height: 60px;
+		 
+	   }
+	   .owl-dots{ 
+		 padding-bottom: 70px ;
+		 position: relative ; 
+		 bottom: 0 ;
+	   } 
+	   .owl-theme .owl-nav.disabled+.owl-dots {
+	   margin-top: 0;
+	   }
+	   .activate{
+		 span{
+		 width: 70px ;
+		 height: 70px ;
+		 }
+	   }
+	   .container{
+		 
+		 color: white ;
+		 max-width: 780px ;
+		 p{
+		   font-family: $font ; 
+		   font-size: 1rem ;
+		   color: #e8e8eb ;
+		   font-weight: 400 ;
+		   margin-bottom: 55px ;
+		   margin-top: 0 ;
+	 
+		 }
+		 h3,h4,p{
+		   text-align: center ;
+		 }
+		 h3,h4{
+		   font-family: $p-font ; 
+	 
+		 }
+		 h3{ 
+		   
+		   font-size: $p-size ; 
+		   font-weight: 900 ;
+		   margin-bottom: 13px ;
+		 }
+	 
+		 h4{
+		   font-size: 0.8125; 
+		   font-weight: 300 ; 
+		   color: $p-color ;
+		   margin: 0 ;
+		   margin-bottom: 45px ;
+		 }
+		 
+	   }
+	 
+	 background-image: url(../images/photo4_02-min.jpg);
+	 background-size: cover ;
+	 .over{
+	   background: rgb(19,10,54);
+	   background: linear-gradient(90deg, rgba(19,10,54,0.9235135196300035) 39%, rgba(28,15,59,0.8757607106412395) 79%);  
+	   min-height: 500px;
+	 }
+   }
+
+
+
+
+
+
+
+

@@ -1,0 +1,146 @@
+
+/////////INPUT SECTION START ////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+.input-section{
+	.input{
+	  margin-right: 10px ;
+	}
+   
+   div.half{
+	 width: 50% ;
+ 
+   }
+   .brands{
+	 padding-left: 100px ;
+	 h2{
+	   color: $darkercolor ; 
+	   font-family: $font ;
+	   font-size: $h_size ;
+	   margin-top: 70px ;
+	   
+	 }
+   }
+   input, textarea {
+	 width: 100% ;
+	 margin-top: 11px;
+	 margin-bottom: 11px ;
+   }
+   
+   input {
+	 height: 45px;
+   }
+   input[type=submit]{
+	 text-align: center;
+	 color: #333 ;
+	 font-size: 0.875rem ;
+	 color: #00e0d0 ; 
+	 border: 1px solid #00e0d0 ;
+	 padding: 11px ;
+	 width: 138px ;
+	 border-radius: 2px ;
+	 letter-spacing: 0.0000em ;
+	 font-weight : 400 ;
+	 font-family: 'Roboto',sans-serif ;
+	 background-color: transparent;
+   }
+   
+   textarea {
+	 height: 200px;
+   }
+   
+   h2.smaller-heading{
+   margin-top: 70px ;
+   margin-bottom: 14px ;
+   margin-left: 11px ;
+   color: $darkercolor ; 
+   font-family: $font ;
+   font-size: $h_size ;
+   }
+   
+   input[type="text"],textarea{
+   border: solid 1px #e5e5e5 ;
+   }
+   ::placeholder{
+	 font-size: $p-size;
+	 font-family: $p-font;
+	 color: $p-color ;
+	 font-weight: 300 ; 
+	 padding-left: 17px ;
+   }
+   
+   textarea::placeholder{
+	 padding-top: 20px ;
+   }
+ }
+ .brandlogo{
+  
+   margin-bottom: 120px ;
+   margin-top: 48px ;
+   max-width: 380px ;
+   img{
+	 width: calc(50% - 40px );
+   }
+   img:nth-child(1){
+	 width:160px; 
+	 height: 22px ;
+	 margin-bottom: 40px ;
+	 margin-right: 70px ;
+   
+   }
+   img:nth-child(2){
+	 width: 140px ;
+	 height: 22px ;
+	 margin-bottom: 40px ;
+   }
+   img:nth-child(3){
+	 width: 140px ;
+	 height: 43px ;
+	 margin-right: 80px ;
+	 margin-bottom: 40px ;
+   }
+   img:nth-child(4){
+	 width: 140px ;
+	 height: 25px ;
+	 margin-bottom: 40px ;
+   }
+   img:nth-child(5){
+	 width: 140px ;
+	 height: 25px ;
+	 margin-right: 80px ;
+	 margin-bottom: 40px ;
+   }
+   img:nth-child(6){
+	 width: 95px ;
+	 height: 35px ;
+	 margin-bottom: 40PX ;
+   }
+   img:nth-child(7){
+	 width: 115px ;
+	 height: 70px ;
+	 margin-right: 80px ;
+	 margin-bottom: 40px ;
+ 
+   }
+   img:nth-child(8){
+	 width: 117px ;    
+	 height: 57px ;
+	 margin-bottom: 40px ;
+   }
+   img:nth-child(9){
+	 width: 110px ;
+	 height: 55px ;
+	 margin-right: 80px ;
+   }
+   
+   img:nth-child(10){
+	width: 132px ;
+	height: 70px ;
+  }
+ } 
+ 
+///// INPUT SECTION END ////////////////////////////////////
+
+
+
+
+

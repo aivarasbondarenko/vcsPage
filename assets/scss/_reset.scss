@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+.flex{
+	display: flex ; 
+	flex-wrap: wrap ; 
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 940px ;
+}
+img{
+	display: block ;
+	
+}
+html {
+  scroll-behavior: smooth;
+}
+
+  .styling{ 
+    padding-top:230px ;
+    
+  }
+

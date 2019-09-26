@@ -1,0 +1,41 @@
+//////////////////////////////*video section start*/
+.video{
+    background-image: url(../images/photo2_02-min.jpg);
+     
+
+  .over_video {
+    background: rgb(19,10,54);
+background: linear-gradient(90deg, rgba(19,10,54,0.9235135196300035) 39%, rgba(28,15,59,0.8757607106412395) 79%);
+    min-height: 550px ; 
+    // .container_video{
+    //   text-align: center ;
+      .video_content{
+        text-align: center ;
+        padding-top: 230px ;
+         h3{
+           color: white ;
+           font-size: $p-size;
+           font-family: $p-font ; 
+           font-weight: 900 ;  
+         }
+         a{
+           text-decoration: none ;
+           img{
+             margin: 0 auto ;
+           }
+         } 
+      // }
+      
+       
+      
+    }
+  }
+}
+
+/////////////////////////////* video section end */
+
+
+
+
+
+
